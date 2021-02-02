@@ -14,10 +14,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define PIN_PLAYER_2 2
 
 const int BALL_R = 2;
-const int PAD_W = 6;
+const int PAD_W = 4;
 const int PAD_H = 15;
-const int PAD_OFFSET = 0;
-const float MAX_SPEED_X = 5;
+const int PAD_OFFSET = 3;
+const float MAX_SPEED_X = 6;
 const float MAX_SPEED_Y = 5;
 
 float i1, i2;
